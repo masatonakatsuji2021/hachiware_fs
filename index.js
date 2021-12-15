@@ -88,9 +88,9 @@ fs.deepDelete = function(deletePath, option){
 		option = {};
 	}
 
-	var basedata = this.deepReadDir(deletePath);
+	var baseData = this.deepReadDir(deletePath);
 
-	basedata.dir.reverse();
+	baseData.dir.reverse();
 
 	for(var n = 0 ; n < baseData.file.length ; n++){
 		var f_ = baseData.file[n];

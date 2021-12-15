@@ -1,0 +1,24 @@
+{
+  "name": "hachiware_fs",
+  "version": "1.0.0",
+  "description": "Extended wrapper for file operation package \"fs\".",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masatonakatsuji2021/hachiware_fs.git"
+  },
+  "keywords": [
+    "javascript",
+    "file",
+    "directory"
+  ],
+  "author": "Nakatsuji Masato",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masatonakatsuji2021/hachiware_fs/issues"
+  },
+  "homepage": "https://github.com/masatonakatsuji2021/hachiware_fs#readme"
+}
