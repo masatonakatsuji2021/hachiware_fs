@@ -62,7 +62,7 @@ fs.deepCopy = function(basePath, copyPath, option){
 
 	for(var n = 0 ; n < baseData.dir.length ; n++){
 		var d_ = baseData.dir[n];
-		var cpd_ = copyPath + "/" + d_.replace(basePath,"");
+		var cpd_ = copyPath + "/" + d_.replace(basePath + "/","");
 		this.mkdirSync(cpd_);
 		if(option.callbackMkdir){
 			option.callbackMkdir(cpd_);
@@ -71,7 +71,7 @@ fs.deepCopy = function(basePath, copyPath, option){
 
 	for(var n = 0 ; n < baseData.file.length ; n++){
 		var f_ = baseData.file[n];
-		var cpf_ = copyPath + "/" + f_.replace(basePath,"");
+		var cpf_ = copyPath + "/" + f_.replace(basePath + "/","");
 		this.copyFileSync(f_, cpf_);
 		if(option.callbackCopyFile){
 			option.callbackCopyFile(f_, cpf_);
