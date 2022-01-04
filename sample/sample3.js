@@ -1,4 +1,4 @@
-const fs = require("../");
+const fs = require("hachiware_fs");
 
 fs.deepDelete("_copy_test");
 

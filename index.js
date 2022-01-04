@@ -53,9 +53,11 @@ fs.deepCopy = function(basePath, copyPath, option){
 
 	var baseData = this.deepReadDir(basePath);
 
-	this.mkdirSync(copyPath);
-	if(option.callbackMkdir){
-		option.callbackMkdir(copyPath);
+	if(!option.noMkdir){
+		this.mkdirSync(copyPath);
+		if(option.callbackMkdir){
+			option.callbackMkdir(copyPath);
+		}	
 	}
 
 	for(var n = 0 ; n < baseData.dir.length ; n++){
@@ -110,11 +112,12 @@ fs.deepDelete = function(deletePath, option){
 		}
 	}
 
-	this.rmdirSync(deletePath);
-	if(option.callbackRmdir){
-		option.callbackRmdir(deletePath);
+	if(!option.noRmdir){
+		this.rmdirSync(deletePath);
+		if(option.callbackRmdir){
+			option.callbackRmdir(deletePath);
+		}
 	}
-
+	
 };
-
 module.exports = fs;

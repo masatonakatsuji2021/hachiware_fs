@@ -1,4 +1,4 @@
-const fs = require("../");
+const fs = require("hachiware_fs");
 
 fs.deepCopy("testdirectory","_copy_test");
 
