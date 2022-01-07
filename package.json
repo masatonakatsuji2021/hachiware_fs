@@ -1,6 +1,6 @@
 {
   "name": "hachiware_fs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Extended wrapper for file operation package \"fs\".",
   "main": "index.js",
   "scripts": {
