@@ -1,5 +1,7 @@
 # Hachiware_fs
 
+<a href="https://github.com/masatonakatsuji2021/hachiware_fs/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/masatonakatsuji2021/hachiware_fs"></a>
+
 An extended wrapper package for the file operation package "fs".  
 A package for getting file / directory information and copying / deleting in a deep hierarchy.
 
