@@ -108,4 +108,12 @@ You can delete the specified path with just this.
 
 ---
 
-Author : Nakatsuji Masato.
+Hachiware_fs
+
+An extended wrapper package for the file operation package "fs".  
+ 
+License : MIT License.   
+Author  : Nakatsuji Masato  
+HP URL  : [https://hachiware-js.com/](https://hachiware-js.com/)  
+GitHub  : [https://github.com/masatonakatsuji2021/Hachiware_fs](https://github.com/masatonakatsuji2021/Hachiware_fs)  
+npm     : [https://www.npmjs.com/package/Hachiware_fs](https://www.npmjs.com/package/Hachiware_fs)

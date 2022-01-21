@@ -1,3 +1,21 @@
+/**
+ * ====================================================================
+ * Hachiware_fs
+ * 
+ * An extended wrapper package for the file operation package "fs".
+ * A package for getting file / directory information and copying / deleting in a deep hierarchy.
+ * 
+ * License : MIT License. 
+ * Since   : 2021.12.21
+ * Author  : Nakatsuji Masato 
+ * Email   : nakatsuji@teastalk.jp
+ * HP URL  : https://hachiware-js.com/
+ * GitHub  : https://github.com/masatonakatsuji2021/hachiware_fs
+ * npm     : https://www.npmjs.com/package/hachiware_fs
+ * 
+ * ====================================================================
+ */
+
 var fs = require("fs");
 
 /**
